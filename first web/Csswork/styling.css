@@ -1,0 +1,435 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family:;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bk3.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+	
+}
+
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 18px;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{	
+	text-decoration-color: none;
+	color:Yellow;
+	border-radius: 5px;
+	padding: 5px 20px;
+	border: 1px solid Transparent;
+	transition: 0.19s ease;
+	text-decoration: none;
+	font-family: Courier New;
+
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ ul li.active a{
+ 	background-color: white;
+	color: black;
+ }
+.logo img{
+	background-color:red;
+	float: left;
+	width: 170px;
+	height: auto;
+	margin-top: 10px;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.title h1
+{
+	position:absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:Luckiest Guy;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+
+}
+.title h4
+{position: absolute;
+ top: 28%;
+left: 23%;
+color:  #F9F9F9;
+font-family:Courier New;
+width: 800px;	
+
+}
+
+.title h1{
+	color:  #F9F9F9;
+	font-size: 75px;
+}
+.button
+{	
+	position:absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn
+{
+ font-size: 18px;
+	border: 1px solid  #b7944f;
+	border-radius: 3px;
+	padding: 4px 8px;
+	color:  #fff;
+	text-decoration: none;
+	font-family:Arial;
+	background-color: #b7944f;
+;
+	
+}
+
+.btn:hover
+{
+	background-color: transparent;
+	color: White;
+    transition: 0.6s ease; 
+}
+
+footer 
+{
+	background-image: linear-gradient(rgba(0,0,0,.9),rgba(0,0,0,.9));
+	height: 15vh;
+	background-size:cover;
+	background-position: bottom;
+}
+.Help
+{
+	position:absolute;
+	top: 113%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: Courier New;
+}
+.Help h4
+{
+    color:   #868686;
+	font-size: 18px;
+}
+
+ul p{
+	color: white;
+}
+.link
+{
+	position: absolute;
+	top: 105%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	font-family: Courier New;
+	
+}
+
+p{
+	color: blue;
+
+}
+.tex
+{
+	color: #fff;
+    text-align: left;
+    margin-left: 80px;
+    color:   #868686;
+    font-family: Courier New;
+    padding-top: 80px;
+    font-weight: bolder;
+
+}
+
+div hr
+{
+	width: 1000px;
+    order: 2px  #868686;
+    left: 40%;
+}
+ul p
+{
+  text-decoration-color: none;
+  color: blue;
+  left: 3%;
+  top:1%;
+
+}
+
+
+/*Events wali ki editing kar raha  hn*/
+
+
+.Event-bg
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../event.jpeg);
+     height: 100vh;
+	background-size:cover;
+	background-position: center;
+
+
+}
+
+/*SEo Wala Event*/
+
+.Seo h1
+{
+	position:absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:cursive;
+	color:Yellow;
+	font-size: 30Spx;
+
+
+}
+
+
+.Seo h4
+{position: absolute;
+ top: 28%;
+left: 23%;
+color:  #F9F9F9;
+font-family:Arial;
+width: 800px;	
+font-size: 25px;
+}
+
+
+.simg img{
+	
+	position: absolute;
+    top: 55%;
+    left:33%;
+	width: 38%;
+	height: auto;
+	
+}
+/*IP Nat Wala Event*/
+
+.ipt h1
+{
+	position:absolute;
+	top: 120%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:cursive;
+	color:Yellow;
+	font-size: 30Spx;
+
+
+}
+.ipt h4
+{position: absolute;
+ top: 125%;
+left: 23%;
+color:  #F9F9F9;
+font-family:Arial;
+width: 800px;	
+font-size: 25px;
+}
+.iptimg img{
+	
+	position: absolute;
+    top: 150%;
+    left:33%;
+	width: 38%;
+	height: auto;
+}
+/*Hacking Wala Event*/
+
+.hack h1
+{
+	position:absolute;
+	top: 220%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:cursive;
+	color:Yellow;
+	font-size: 30Spx;
+
+
+}
+
+
+.hack h4
+{position: absolute;
+ top: 230%;
+left: 23%;
+color:  #F9F9F9;
+font-family:Arial;
+width: 800px;	
+font-size: 25px;
+}
+.hckimg img{
+	
+	position: absolute;
+    top: 275%;
+    left:33%;
+	width: 38%;
+	height: auto;
+}
+
+/*Industrial Trip 1*/
+
+
+
+.Itrip h1
+{
+	position:absolute;
+	top: 345%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:cursive;
+	color:Yellow;
+	font-size: 30Spx;
+
+
+}
+
+
+.Itrip h4
+{position: absolute;
+ top: 350%;
+left: 23%;
+color:  #F9F9F9;
+font-family:Arial;
+width: 800px;	
+font-size: 25px;
+}
+.trpimg img{
+	
+	position: absolute;
+    top: 395%;
+    left:19%;
+	width: 70%;
+	height: auto;
+}
+
+/*Phyton Workshop*/
+
+
+
+.workshp h1
+{
+	position:absolute;
+	top: 475%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:cursive;
+	color:Yellow;
+	font-size: 30Spx;
+
+
+}
+
+
+.workshp h4
+{position: absolute;
+ top: 480%;
+left: 23%;
+color:  #F9F9F9;
+font-family:Arial;
+width: 800px;	
+font-size: 25px;
+}
+.work img{
+	
+	position: absolute;
+    top: 505%;
+    left:30%;
+	width: 50%;
+	height: auto;
+}
+
+
+/*Contact wali ki editing kar raha  hn*/
+
+
+.contact-bg
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../contact.jpeg);
+     height: 100vh;
+	background-size:cover;
+	background-position: center;
+
+
+}
+
+
+/*About wali ki editing kar raha  hn*/
+
+
+.aboutus-bg
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../abot.jpeg);
+     height: 100vh;
+	background-size:cover;
+	background-position: center;
+
+}
+
+
+.address h1
+{
+	position:absolute;
+	top: 18%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family:cursive;
+	color:Yellow;
+	font-size: 40px;
+	font-family:Bookman;
+
+
+}
+
+
+.address h4
+{position: absolute;
+ top: 23%;
+left: 25%;
+color:  #F9F9F9;
+font-family:Bookman;
+width: 800px;	
+font-size: 25px;
+}
+
+
+.map img{
+	
+	position: absolute;
+    top: 35%;
+    left:25%;
+	width: 50%;
+	height: auto;
+	
+}
